@@ -1,0 +1,7 @@
+name: first-workflow
+on: workflow_dispatch
+jobs:
+   runs-on: ubantu-22.04
+   steps:
+     - name: simple print meassage
+     run: echo "hello github action"
